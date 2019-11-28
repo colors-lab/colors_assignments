@@ -1,0 +1,13 @@
+<!--
+  Driver for the logitech rumblepad2 joystick.
+
+  Use the D pad while pressing and holding the left trigger button (5) to control.
+-->
+<launch>
+
+  <node pkg="vrep_teleop" type="diff_key_control" name="diff_key_control" output="screen">
+    <param name="scale_angular" value="1.5"/>
+    <param name="scale_linear" value="0.5"/>
+    <!--remap from="/cmd_vel" to="/vrep/twistCommand"/-->
+  </node>
+</launch>

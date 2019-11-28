@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>assignment2</name>
+  <version>0.0.0</version>
+  <description>This project contains assignments related to learning V-REP and ROS.</description>
+
+  <maintainer email="tekdenahmet@gmail.com">Ahmet Tekden</maintainer>
+
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>orocos_kdl</build_depend>
+  <build_depend>roslib</build_depend>
+
+	<run_depend>roscpp</run_depend>
+	<run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>orocos_kdl</run_depend>
+  <run_depend>roslib</run_depend>
+
+
+  <export>
+
+  </export>
+</package>
